@@ -11,7 +11,7 @@ import ConeGeo from '../model/Shapes/ConeGeo';
 
 const CANVAS = ({scrollPosition}) => {
   return ( 
-    <div style={{height:"100%",width:"100%",minHeight:"200%",position:"absolute",zIndex:3}}>
+    <div style={{height:"100%",width:"50%",minHeight:"210%",position:"absolute",zIndex:3,left:"25%"}}>
     <Canvas camera={{position:[0,0,5],fov:70}}>
         <Suspense fallback={null}>
         {/* <Stars radius={20} factor={15} /> */}

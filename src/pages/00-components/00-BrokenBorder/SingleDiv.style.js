@@ -1,11 +1,11 @@
 import styled from "styled-components";
-
+import log from "../../00-components/00-images/log.jpg"
 export const SingleDivStyled = styled.div`
     z-index:4;
     width:25vw ;
-    height:10px;
-    border-top:inset thin white;
-    border-bottom:inset thin white;
+    
+    border-top:inset thick #4EC5C4;
+    /* background:url(${log}); */
     position:absolute ;
     left:${({left})=>left};
     top:${({top})=>top+"px"};

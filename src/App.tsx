@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './App.css';
 import {
@@ -7,13 +7,19 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './pages/01-Home/Home';
+
+export let pageState = React.createContext<any>({})
 function App() {
+
+  let [state,setState]=useState({LightModeToggle:false})
   return (
     <div className="App">
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home/>}/>
-        </Routes>
+        <pageState.Provider value={{state,setState}}>
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+          </Routes>
+        </pageState.Provider>
       </BrowserRouter>
     </div>
   );
