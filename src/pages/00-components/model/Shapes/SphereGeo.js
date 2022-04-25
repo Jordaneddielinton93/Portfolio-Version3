@@ -16,14 +16,9 @@ export default function SphereGeo({position,bool}) {
     let texture=useTexture(whiteSilk)
   
   return (
-    <Sphere ref={ref} position={position} scale={0.16}>
+    <Sphere ref={ref} position={position} scale={0.25}>
       
       <meshBasicMaterial  attach="material" map={texture} >
-      {/* <GradientTexture
-      stops={[0, 1]} // As many stops as you want
-      colors={['#9DB5FB', '#9B31C9']} // Colors need to match the number of stops
-       // Size is optional, default = 1024
-    /> */}
         
       </meshBasicMaterial>
     </Sphere>

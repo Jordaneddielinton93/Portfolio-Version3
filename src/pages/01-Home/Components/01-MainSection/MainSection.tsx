@@ -1,4 +1,4 @@
-import Navbar from "../../../00-components/01-Navbar/Navbar";
+
 import { MainSectionStyled } from "./MainSection.styled";
 import instialJ from "../../../00-components/00-images/leaves.png"
 import selfie from "../../../00-components/00-images/me2.png"

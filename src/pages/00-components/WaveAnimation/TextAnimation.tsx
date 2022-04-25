@@ -7,8 +7,8 @@ const TextAnimation = ({Text,fontSize}:any) => {
 
   return ( 
     <TextAnimationStyled fontSize={fontSize}>
-      {WordArray.map((item:string)=>{
-        return <span>{item}</span>
+      {WordArray.map((item:string,index:number)=>{
+        return <span id={item+index}>{item}</span>
       })}
     </TextAnimationStyled>
    );

@@ -17,7 +17,7 @@ export default function ConeGeo({position,bool}) {
     let texture=useTexture(hovered?paint2:paint1)
   
   return (
-    <Tetrahedron ref={ref} position={position} scale={0.2} onPointerOver={(event) => hover(true)}
+    <Tetrahedron ref={ref} position={position} scale={0.35} onPointerOver={(event) => hover(true)}
     onPointerOut={(event) => hover(false)}>
       
       <meshBasicMaterial  attach="material" map={texture} >

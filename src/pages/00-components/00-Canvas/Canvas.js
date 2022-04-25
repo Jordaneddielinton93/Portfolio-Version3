@@ -11,7 +11,7 @@ import ConeGeo from '../model/Shapes/ConeGeo';
 
 const CANVAS = ({scrollPosition}) => {
   return ( 
-    <div style={{height:"100%",width:"50%",minHeight:"210%",position:"absolute",zIndex:3,left:"25%"}}>
+    <div style={{height:"100%",width:"50%",minHeight:"100%",position:"absolute",zIndex:3,left:"25%"}}>
     <Canvas camera={{position:[0,0,5],fov:70}}>
         <Suspense fallback={null}>
         {/* <Stars radius={20} factor={15} /> */}
@@ -20,10 +20,10 @@ const CANVAS = ({scrollPosition}) => {
           <SpaceMan scrollPosition={scrollPosition}/>
           {/* <BoxGeo position={[0.4,3.1,0]} bool={true}/>
           <BoxGeo position={[-0.4,3.1,0]} bool={false} /> */}
-          <ConeGeo position={[-0.5,1.3,0]} bool={false}/>
-          <ConeGeo position={[0.5,1.8,0]} bool={true}/>
-          <SphereGeo position={[-0.5,2.3,0]}/>
-          <SphereGeo position={[0.5,1,0]}/>
+          <ConeGeo position={[-0.8,-1,0]} bool={false}/>
+          <ConeGeo position={[0.8,1,0]} bool={true}/>
+          <SphereGeo position={[-0.8,1,0]}/>
+          <SphereGeo position={[0.9,-1,0]}/>
         </Suspense>
     </Canvas>
     </div>

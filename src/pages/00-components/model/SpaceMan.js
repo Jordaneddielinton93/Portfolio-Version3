@@ -32,7 +32,7 @@ const SpaceMan = ({scrollPosition}) => {
   })
   return ( 
     <mesh ref={ref} onClick={(event) => click(!clicked)}
-     position={[0,-scrollPosition/230+1.4,1]} scale={clicked?0.0020:0.0010}>
+     position={[0,-scrollPosition/230,1]} scale={clicked?0.0030:0.0020}>
       <primitive object={gltf.scene}/>
    </mesh>
    );
