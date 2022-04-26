@@ -21,7 +21,7 @@ export const MainSectionStyled = styled.main`
       height:100%;
       &-Top{
         color:white;
-        font-size:5vw;
+        font-size:5.5vw;
         font-weight:100;
         width:90% ;
         display:flex ;
@@ -31,11 +31,22 @@ export const MainSectionStyled = styled.main`
           z-index:0;
         }
       }
-      &-Bottom{
+      &-Middle{
         color:white;
         width:90% ;
-
+        font-size:1.5vw;
         text-align:left;
+      }
+      &-Bottom{
+        color:grey;
+        display:flex ;
+        justify-content:space-evenly;
+        align-items:center;
+        margin-top:10px;
+        width:90%;
+        height:90px ;
+
+        /* background:red ; */
       }
     }
     &-Middle{

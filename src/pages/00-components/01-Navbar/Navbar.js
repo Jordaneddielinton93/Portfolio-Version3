@@ -16,8 +16,7 @@ const Navbar = () => {
           <li>Contact</li>
         </ul>
         <ul className="NavDarkmode">
-          <li className="NavDarkmode-dark" onClick={()=>setState({...state,LightModeToggle:!state.LightModeToggle})}>Dark</li>
-          <li className="NavDarkmode-light">Light</li>
+          <li className="NavDarkmode-dark" onClick={()=>setState({...state,LightModeToggle:!state.LightModeToggle})}>Dark-Mode</li>
         </ul>
       </div>
     </NavbarStyled>

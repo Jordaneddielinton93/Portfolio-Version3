@@ -17,10 +17,11 @@ export default function Home(){
     <HomeStyled bgColor={state.LightModeToggle}>
       <Navbar/>
       <CANVAS scrollPosition={scrollPosition}/>
-      <BrokenBorder/>
       <MainSection />
-      <ProjectsSection/>
+      <BrokenBorder/>
       <SkillsSection/>
+
+      <ProjectsSection/>
     </HomeStyled>
   )
 }
