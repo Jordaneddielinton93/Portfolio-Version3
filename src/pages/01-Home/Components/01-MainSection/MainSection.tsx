@@ -11,12 +11,15 @@ export default function MainSection(){
     <MainSectionStyled>
       <div className="Main">
         <section className="Main-LeftSide">
-          <div className="Main-LeftSide-middle">
+          <div className="Main-LeftSide-Top">
             <PulseSphere  delay={"0s"}/>
             <span>Welcome</span>
             <span>To my</span>
             <span>Portfolio</span>
           </div>
+          <p className="Main-LeftSide-Bottom">
+            Hi!, Im jordan a professional freelance web-developer, here to help you with all you website want's and needs
+          </p>
         </section>
 
         <section className="Main-Middle">

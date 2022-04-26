@@ -19,9 +19,9 @@ export const MainSectionStyled = styled.main`
       align-items:center;
       width:30% ;
       height:100%;
-      &-middle{
+      &-Top{
         color:white;
-        font-size:8vw;
+        font-size:5vw;
         font-weight:100;
         width:90% ;
         display:flex ;
@@ -30,6 +30,12 @@ export const MainSectionStyled = styled.main`
         span{
           z-index:0;
         }
+      }
+      &-Bottom{
+        color:white;
+        width:90% ;
+
+        text-align:left;
       }
     }
     &-Middle{

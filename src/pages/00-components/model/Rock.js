@@ -6,7 +6,7 @@ import { useGLTF } from "@react-three/drei/core/useGLTF";
 import { useFrame } from '@react-three/fiber'
 import { useRef,useState } from "react";
 
-const SpaceMan = ({scrollPosition}) => {
+const Rock = ({scrollPosition}) => {
   const ref = useRef()
 // console.log(ref.current.rotation.x)
 
@@ -36,4 +36,4 @@ const SpaceMan = ({scrollPosition}) => {
    );
 }
  
-export default SpaceMan;
+export default Rock;
