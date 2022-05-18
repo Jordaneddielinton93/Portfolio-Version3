@@ -1,0 +1,11 @@
+Model Information:
+* title:	Magic experiment potions
+* source:	https://sketchfab.com/3d-models/magic-experiment-potions-3f2e0c7fa16442fc84688e5961032cd7
+* author:	Mei, "RealN" (https://sketchfab.com/villemy)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Magic experiment potions" (https://sketchfab.com/3d-models/magic-experiment-potions-3f2e0c7fa16442fc84688e5961032cd7) by Mei, "RealN" (https://sketchfab.com/villemy) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
